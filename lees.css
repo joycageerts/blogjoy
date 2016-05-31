@@ -1,0 +1,236 @@
+body{
+  background-image: url("http://www.desktopwallpaperhd.net/wallpapers/9/4/sea-wallpapers-screensaver-gallery-98468.jpg");
+}
+#footer{
+  position: fixed;
+  bottom: 0%;
+  padding-left: 5%;
+  background-color: white;
+  width: 100%;
+  z-index: 120;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+    font-family: "American Typewriter";
+    font-style: italic;
+
+}
+h3{
+  text-align: right;
+  position: absolute;
+  right: 10%;
+  top:2%;
+}
+.tag{
+  z-index: 220;
+  font-size: 70%;
+  position: relative;;
+  right: 30%;
+}
+h4{
+  text-align: right;
+  position: absolute;
+  right: 2%;
+  top:90%;
+  font-size: 70%;
+  font-family: "American Typewriter";
+}
+#menu{
+  z-index: 200;
+  position: fixed;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  width: 100%;
+  height: 4%;
+  background-color: white;
+  border-bottom: 1px solid hotpink;
+  font-family: "American Typewriter";
+}
+.dropbtn {
+  font-family: "American Typewriter";
+    background-color: white;
+    color: black;
+    font-style: italic;
+    font-size: 120%;
+    border: none;
+    margin-right: 60%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 120%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+  font-family: "American Typewriter";
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.oud{
+  font-family: "American Typewriter";
+  padding: 0.5%;
+  padding-top: 1%;
+  padding-left: 0.7%;
+  font-size: 55%;
+  border-radius: 50%;
+  position: fixed;
+  top: 85%;
+  left: 2%;
+  width: 2.3%;
+  height: 3.5%;
+  background-color: white;
+}
+.oud:hover{
+  border: 1px solid black;
+}
+.nieuw:hover{
+  border: 1px solid black;
+}
+
+.nieuw{
+  font-family: "American Typewriter";
+  padding: 0.5%;
+  padding-top: 1%;
+  font-size: 50%;
+  border-radius: 50%;
+  position: fixed;
+  top: 15%;
+  left: 2%;
+  width: 2.5%;
+  height: 3.5%;
+  background-color: white;
+}
+.kader{
+  width: 17%;
+  height: 35%;
+  position: absolute;
+  background-color: lightgrey;
+  z-index: 11;
+  border: 2px solid white;
+top: 15%;
+left: 57%;
+}
+.deux{
+  background-image: url("http://www.otto-blog.nl/wp-content/uploads/2015/07/IBIZA.jpg");
+  background-size: cover;
+ left: 7%;
+}
+.un{
+  background-image: url("https://lvs.luxury/wp-content/uploads/2015/06/6356833445502625871980503981_635679448951029220-840639148_Ibiza-Port.jpg");
+  background-size: cover;
+  top:60%
+}
+
+.tekst{
+  font-family: "American Typewriter";
+  z-index: 10;
+  background-color: white;
+  padding: 10px;
+  width: 30%;
+  position: absolute;
+  left: 25%;
+  top: 20%;
+padding-bottom: 10%;
+}
+
+#sidebalk{
+  font-family: "American Typewriter";
+  position: fixed;
+  z-index: 210;
+  top: 0%;
+  right: 2%;
+  height: 100%;
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-left: 1px solid hotpink;
+  border-right: 1px solid hotpink;
+
+}
+h2{
+  text-align: center;
+  margin-left: 20%;
+  padding-top: 20%;
+}
+h1{
+  font-size: 125%;
+  text-decoration: underline;
+}
+a{
+  font-style: italic;
+font-size: 130%;
+margin-right: 20%;
+color: black;
+text-decoration: none;
+}
+.slider {
+
+      background-color: white;
+    }
+
+    img {
+      border: 1px solid #F7F7F7;
+      width: 95%;
+      float: left;
+      margin:2%
+    }
+  }
+      @media only screen and (max-width: 850px) {
+        body{
+          background-color: red;
+        }
+        .kader{
+          visibility: hidden;
+    }
+    .tekstvak{
+      width: 50%;
+      left: 10%;
+}
+.nieuw{
+  font-size: 0px;
+
+}
+.oud{
+  font-size: 0px;
+}
+.dropbtn{
+  margin-right: 10%;
+}
+}
+
+      @media only screen and (max-width: 550px) {
+      
+        .kader{
+          visibility: hidden;
+    }
+    .tekstvak{
+      width: 80%;
+      left: 5%;
+}
+.nieuw{
+  visibility: hidden;
+}
+#sidebalk{
+top: 80%;
+  height: 20%;
+  width: 100%;
+}
+.number {
+      border: 0;
+      width: 30%;
+      float: left;
+      margin: 1%;
+}
+}
